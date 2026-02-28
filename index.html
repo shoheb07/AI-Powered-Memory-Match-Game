@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Memory Match Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Memory Match Game</h1>
+
+        <div class="controls">
+            <span>Moves: <b id="moves">0</b></span>
+            <span>Time: <b id="time">0</b>s</span>
+            <span>Difficulty: <b id="difficulty">Easy</b></span>
+            <button onclick="restartGame()">Restart</button>
+            <button onclick="toggleTheme()">Toggle Theme</button>
+        </div>
+
+        <div id="gameBoard" class="game-board"></div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
